@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #121;
+}
+/* .media-scrollar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 80%;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+} */
+
+/* navbar css starts here */
+.navb{
+    width: 90%;
+    position: sticky;
+    font-size: 20px;
+    font-weight:bold ;
+    font-family: 'Ubuntu', sans-serif;
+    /* cursor: pointer; */
+}
+.logo {
+    float: left; /* Align the logo to the left */
+    margin: -4px 13px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.name{
+    margin-right:100px;
+    font-family: 'Protest Revolution', sans-serif;
+}
+.navb ul{
+  margin: 28px 12px;
+}
+
+.navb ul li {
+    display: inline-block;
+    margin-right: 80px; /* Add spacing between menu items */
+}
+
+.navb ul li a {
+    text-decoration: none;
+    color:white; /* Adjust the link color */
+  
+    
+}
+
+
+.navb ul li a:hover{
+    text-decoration: underline;
+    color: #9aa0a3;
+}
+/* search bar */
+.search-container {
+    float: right;
+    margin-right: -100px;
+    margin-top: -57px;
+  }
+  
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background: #282b1c;
+    font-weight: bold;
+    color: aliceblue;
+  }
+/* navbar css ends here */
+.banner{
+    margin: 50px 200px;
+    height: 500px;
+    width: 80%;
+    border-radius: 8px;
+}
+/* Current news section starts here */
+.textBig{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section{
+    color: aliceblue;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
+    font-family: "Anta", sans-serif;
+}
+.sectionleft{
+    flex-direction: row-reverse;
+}
+.imgFluid{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
+.news{
+    padding: 0px 70px;
+    /* background: #58504f; */
+}
+
