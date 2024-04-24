@@ -11,4 +11,6 @@ follow these steps to implement this project:
   3) admin_users(to store admin login credentials)
   4) signupforms(stores user login details)
   5) contact(its a features provided to users to contact to the team )
-and your project is ready 
+and your project is ready
+
+Can contact on linkedin: https://www.linkedin.com/in/jagmohan-prajapati-aaa117200/
